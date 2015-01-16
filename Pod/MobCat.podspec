@@ -25,7 +25,7 @@ Pod::Spec.new do |s|
                    * If you have a category you use often, consider adding it to the Pod (Pod 6 for life!)
                    DESC
 
-  s.homepage     = "http://EXAMPLE/MobCat"
+  s.homepage     = "http://github.com/nielubowicz/MobCat"
   # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
@@ -36,8 +36,7 @@ Pod::Spec.new do |s|
   #  Popular ones are 'MIT', 'BSD' and 'Apache License, Version 2.0'.
   #
 
-  s.license      = "MIT (example)"
-  # s.license      = { :type => "MIT", :file => "FILE_LICENSE" }
+  s.license      = { :type => "MIT" , :file => "LICENSE" }
 
 
   # ――― Author Metadata  ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -75,7 +74,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "http://github.com/nielubowicz/MobCat.git", :tag => "0.0.1" }
+  s.source       = { :git => "https://github.com/nielubowicz/MobCat.git", :tag => "0.0.1" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
