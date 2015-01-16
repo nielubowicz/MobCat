@@ -17,15 +17,18 @@ Pod::Spec.new do |s|
 
   s.name         = "MobCat"
   s.version      = "0.0.1"
-  s.summary      = "Mobiquity Categories for iOS"
+  s.summary      = "Popular Categories"
 
   s.description  = <<-DESC
-                   Popular categories for Mobiquity iOS projects
+                   A longer description of MobCat in Markdown format.
 
-                   * If you have a category you use often, consider adding it to the Pod (Pod 6 for life!)
+                   * Think: Why did you write this? What is the focus? What does it do?
+                   * CocoaPods will be using this to generate tags, and improve search results.
+                   * Try to keep it short, snappy and to the point.
+                   * Finally, don't worry about the indent, CocoaPods strips it!
                    DESC
 
-  s.homepage     = "http://github.com/nielubowicz/MobCat"
+  s.homepage     = "https://github.com/nielubowicz/MobCat"
   # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
@@ -36,7 +39,7 @@ Pod::Spec.new do |s|
   #  Popular ones are 'MIT', 'BSD' and 'Apache License, Version 2.0'.
   #
 
-  s.license      = { :type => "MIT" , :file => "LICENSE" }
+    s.license      = { :type => "MIT", :file => "LICENSE" }
 
 
   # ――― Author Metadata  ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -48,11 +51,11 @@ Pod::Spec.new do |s|
   #  Specify a social_media_url where others can refer to, for example a twitter
   #  profile URL.
   #
-
-  s.author             = { "Chris Nielubowicz" => "cnielubowicz@mobiquityinc.com" }
-  # Or just: s.author    = "Chris Nielubowicz"
-  # s.authors            = { "Chris Nielubowicz" => "cnielubowicz@mobiquityinc.com" }
-  # s.social_media_url   = "http://twitter.com/Chris Nielubowicz"
+  
+  s.author             = { "Chris Nielubowicz" => "nielubowicz@gmail.com" }
+  # Or just: s.author    = ""
+  # s.authors            = { "" => "nielubowicz@gmail.com" }
+  # s.social_media_url   = "http://twitter.com/"
 
   # ――― Platform Specifics ――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
@@ -60,7 +63,7 @@ Pod::Spec.new do |s|
   #  the deployment target. You can optionally include the target after the platform.
   #
 
-  s.platform     = :ios
+    s.platform     = :ios
   # s.platform     = :ios, "5.0"
 
   #  When using multiple platforms
@@ -85,7 +88,7 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "Classes", "Classes/*.{h,m}"
+  s.source_files  = "Classes/*.{h,m}"
   s.exclude_files = "Classes/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"
@@ -124,7 +127,7 @@ Pod::Spec.new do |s|
   #  where they will only apply to your library. If you depend on other Podspecs
   #  you can include multiple dependencies to ensure it works.
 
-  # s.requires_arc = true
+    s.requires_arc = true
 
   # s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
   # s.dependency "JSONKit", "~> 1.4"
