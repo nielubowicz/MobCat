@@ -7,6 +7,7 @@
 //
 
 #import "MobViewController.h"
+#import "UIView+MOB_Position.h"
 
 @interface MobViewController ()
 
@@ -18,6 +19,11 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+
+    // Testing UIView+MOB_Position
+    NSLog(@"%f %f %f %f", self.view.x, self.view.y, self.view.width, self.view.height);
+
+    // Testing 
 }
 
 - (void)didReceiveMemoryWarning
